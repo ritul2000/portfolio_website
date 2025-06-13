@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a2dad2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #78d4d9;
+  padding: 20px;
+  border-bottom: 5px solid #28cdff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #5d4037;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #6d4c41;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #795548;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #1621ed;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* About / Skills / Projects / Contact Headings */
+section h2 {
+  font-size: 2rem;
+  color: #8d6e63;
+  margin-bottom: 20px;
+}
+
+/* About */
+#about p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Skills */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills li {
+  background-color: #ffecb3;
+  border: 2px dashed #ffb300;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Projects */
+.project {
+  background-color: #fff8e1;
+  border: 2px solid #ffe0b2;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project img {
+  border-radius: 10px;
+}
+
+/* Resume */
+#resume a {
+  background-color: #4df3ff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+#resume a:hover {
+  background-color: #fb8c00;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 2px solid #ffcc80;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #f57c00;
+}
+
+/* Footer */
+footer {
+  background-color: #ffe082;
+  text-align: center;
+  padding: 15px;
+  color: #5d4037;
+  border-top: 5px solid #ffca28;
+}
+
+/* Cartoon Image Styling */
+.cartoon-img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #ffa000;
+  padding: 5px;
+  background-color: #fff3e0;
+}
